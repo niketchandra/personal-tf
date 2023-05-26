@@ -21,7 +21,7 @@ variable "key_pair_name" {
 }
 
 module "ec2_with_docker" {
-  source = "path/to/ec2_with_docker"
+  source = "path/to/ec2_with_docker"    #NOTE --> Please change
 
   aws_region          = var.aws_region
   instance_type       = var.instance_type
